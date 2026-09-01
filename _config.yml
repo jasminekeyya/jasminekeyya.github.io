@@ -23,7 +23,7 @@ repository               : "jasminekeyya/jasminekeyya.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpeg"
   name             : "Keya Li"
   pronouns         : "she/her"  
   bio              : "Fourth-year Ph.D. student in Transportation Engineering | Traffic Safety | Mobility Data"
