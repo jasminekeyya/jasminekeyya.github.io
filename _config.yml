@@ -24,13 +24,13 @@ repository               : "jasminekeyya/jasminekeyya.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  name             : "Keya Li"
+  pronouns         : "she/her"  
+  bio              : "Fourth-year Ph.D. student in Transportation Engineering | Traffic Safety | Mobility Data"
+  location         : "Austin, Texas"
+  employer         : "The University of Texas at Austin"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "keya_li@utexas.edu" 
 
   # Academic websites
   academia         : # URL
