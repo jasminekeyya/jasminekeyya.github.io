@@ -1,166 +1,111 @@
----
----
-
-/*
- * Main stylesheet for Keya Li's personal website.
- * The first two lines above are required by Jekyll.
- */
-
-
 /* ==========================================================================
-   WEB FONT
-   ========================================================================== */
-
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300..700;1,300..700&display=swap");
-
-
-/* ==========================================================================
-   ACADEMIC PAGES STYLES
-   ========================================================================== */
-
-@import
-    "vendor/breakpoint/breakpoint",
-
-    "themes",
-    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
-    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
-
-    "include/mixins",
-    "vendor/susy/susy",
-    "layout/reset",
-    "layout/base",
-
-    "include/utilities",
-    "layout/tables",
-    "layout/buttons",
-    "layout/notices",
-    "layout/masthead",
-    "layout/navigation",
-    "layout/footer",
-    "syntax",
-
-    "layout/forms",
-
-    "layout/page",
-    "layout/archive",
-    "layout/sidebar",
-    "layout/json_cv"
-;
-
-
-/* ==========================================================================
-   CUSTOM TYPOGRAPHY
+   PERSONAL COLOR PALETTE
    ========================================================================== */
 
 /*
- * Body text
- */
-body {
-    font-family: $global-font-family;
-    font-weight: 400;
-    line-height: 1.65;
-}
-
-
-/*
- * Main page content
- */
-.page__content {
-    font-family: $global-font-family;
-    font-size: 1em;
-    line-height: 1.7;
-}
-
-
-/*
- * Paragraph spacing
- */
-.page__content p {
-    margin-bottom: 1.1em;
-}
-
-
-/*
- * Headings
+ * Keya Li Personal Website
  *
- * 600 gives headings enough emphasis without making
- * the page look overly bold.
+ * Accent: UT Austin-inspired burnt orange
+ * Main text: neutral charcoal / gray
  */
-.page__content h1,
-.page__content h2,
-.page__content h3,
-.page__content h4 {
-    font-family: $header-font-family;
-    font-weight: 600;
-    line-height: 1.3;
+
+
+/* Main body text */
+.page__content {
+    color: #4A4A4A;
 }
 
 
-/*
- * Major section headings
+/* Major section headings:
+   Education, Research, Selected Projects, Publications, etc.
  */
 .page__content h2 {
-    margin-top: 2.1em;
-    margin-bottom: 0.8em;
+    color: #BF5700;
+    font-weight: 600;
+    border-bottom: 1px solid #E6E6E6;
+    padding-bottom: 0.25em;
 }
 
 
-/*
- * Project/research subsection headings
+/* Subsection headings:
+   UT Austin, Traffic Safety, individual projects, etc.
  */
 .page__content h3 {
-    margin-top: 1.6em;
-    margin-bottom: 0.45em;
-}
-
-
-/*
- * Bold text
- *
- * Slightly lighter than the browser default,
- * so emphasized text does not dominate the page.
- */
-.page__content strong {
+    color: #2D2A26;
     font-weight: 600;
 }
 
 
-/*
- * Italic text such as project sponsors
- */
-.page__content em {
-    font-weight: 400;
-}
-
-
-/*
- * Sidebar typography
- */
-.author__name {
-    font-family: $header-font-family;
+/* Smaller headings */
+.page__content h4 {
+    color: #2D2A26;
     font-weight: 600;
 }
 
-.author__bio {
-    font-family: $global-font-family;
-    line-height: 1.5;
-}
 
-
-/*
- * Navigation
- */
-.greedy-nav,
-.masthead {
-    font-family: $global-font-family;
-}
-
-
-/*
- * Links
- *
- * Keep the site's theme color but avoid extra bolding.
- */
+/* Links */
 .page__content a {
+    color: #BF5700;
+    text-decoration: none;
     font-weight: 400;
+}
+
+
+/* Link hover */
+.page__content a:hover {
+    color: #8F3F00;
+    text-decoration: underline;
+}
+
+
+/* Sidebar links */
+.author__urls a {
+    color: #4A4A4A;
+}
+
+.author__urls a:hover {
+    color: #BF5700;
+}
+
+
+/* Sidebar name */
+.author__name {
+    color: #2D2A26;
+}
+
+
+/* Sidebar biography */
+.author__bio {
+    color: #5F5F5F;
+}
+
+
+/* Navigation links */
+.greedy-nav a {
+    color: #2D2A26;
+}
+
+.greedy-nav a:hover {
+    color: #BF5700;
+}
+
+
+/* Horizontal rules */
+.page__content hr {
+    border: 0;
+    border-top: 1px solid #E6E6E6;
+    margin: 2em 0;
+}
+
+
+/* Italic project sponsors / affiliations */
+.page__content em {
+    color: #6F6F6F;
+}
+
+
+/* Bold text should remain subtle */
+.page__content strong {
+    color: #333333;
+    font-weight: 600;
 }
