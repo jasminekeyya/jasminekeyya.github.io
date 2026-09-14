@@ -1,56 +1,145 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+I am a fourth-year Ph.D. student in Transportation Engineering at **The University of Texas at Austin**, advised by **Professor Kara M. Kockelman**, and expect to complete my Ph.D. in **August 2027**. My research focuses on transportation safety, driving behavior, vulnerable road user (VRU) safety, and large-scale mobility data analytics.
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+My work seeks to understand **where, when, and why transportation risks emerge** and how emerging data, technologies, and safety interventions can be used to reduce those risks. I am particularly interested in connecting large-scale mobility data with statistical and spatial methods, computer vision, and transportation safety modeling.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+[**CV**](/files/Keya_Li_CV.pdf) &nbsp;&nbsp; | &nbsp;&nbsp;
+[**Email**](mailto:keya_li@utexas.edu) &nbsp;&nbsp; | &nbsp;&nbsp;
+[**LinkedIn**](https://www.linkedin.com/in/keya-li/)
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+---
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+## Research Interests
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+My research spans three connected areas:
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+### Traffic Safety & Road User Behavior
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+I study how roadway design, posted speed limits, land use, traffic conditions, and temporal factors influence **driving behavior, operating speeds, and speeding risk**. I also examine safety from the perspective of vulnerable road users, including pedestrian and cyclist activity, exposure, and crash risk.
 
-**Markdown generator**
+### Large-Scale Mobility Data Analytics
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+I work with large and emerging transportation datasets, including **probe vehicle data, GPS and trajectory data, household travel surveys, crash records, roadway networks, and land-use data**. My research combines these datasets with statistical modeling, econometrics, spatial analysis, GIS, and large-scale data processing to identify transportation risk patterns.
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+### Safety Countermeasures & Emerging Technologies
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+I evaluate transportation safety strategies ranging from **non-infrastructure countermeasures**, such as Rest-in-Red operations and roadway lighting, to emerging technology-based approaches involving **computer vision, roadside cameras, smartphones, and automated vehicle systems**. My goal is to understand not only whether a countermeasure works, but also where and when it should be deployed.
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+---
+
+## Selected Research Projects
+
+### TxDOT Project 0-7220 — Speed Management and VRU Safety
+
+I analyze large-scale mobility and roadway data to understand operating-speed and speeding patterns across Texas and evaluate strategies for reducing speeding and vulnerable road user injuries.
+
+- Analyzed **39+ million INRIX probe observations** to characterize statewide operating speeds and speeding patterns.
+- Examined relationships between driver behavior and roadway, land-use, traffic, and temporal characteristics.
+- Evaluated **non-infrastructure speed-management countermeasures** using before–after analyses of operating speeds and crashes, including Rest-in-Red and roadway lighting.
+- Developed the **Speed and VRU Safety Prediction (SVRP) Tool**, which predicts operating speeds, speeding rates, and expected VRU crash frequencies and compares countermeasures using estimated benefits, costs, and benefit–cost ratios.
+
+### Waymo — Exposure-Based Pedestrian & Cyclist Safety
+
+This research develops exposure-based measures of pedestrian and cyclist safety across U.S. settings and examines their implications for automated vehicle operations.
+
+- Developed **pedestrian and cyclist activity models** using more than **1.1 million travel-survey trips**.
+- Estimated walking- and biking-miles traveled for more than **73,000 U.S. Census tracts**.
+- Developed **VRU crash-count models** for intersections and midblock roadway segments using exposure, roadway, and land-use characteristics.
+- Examined four U.S. cities with **Waymo operations** to estimate pedestrian and cyclist crash risk and provide exposure-based safety benchmarks for automated vehicle operations.
+
+### UT Good Systems — Computer Vision for Traffic Enforcement
+
+I worked on smartphone- and video-based approaches for traffic monitoring and speed-limit enforcement.
+
+- Developed and evaluated **computer-vision methods** for vehicle speed inference, vehicle make/model identification, and license-plate recognition.
+- Evaluated speed-estimation accuracy using roadside-camera and manually collected smartphone video.
+- Investigated how low-cost sensing and vision technologies can support scalable traffic-safety monitoring and enforcement.
+
+### Traffic Noise Exposure & Equity — UC Berkeley
+
+I developed transportation-noise models to examine environmental equity across communities in San Jose, California.
+
+- Developed **link-level traffic noise exposure models** using Mobiliti-simulated traffic flows and speeds across more than **74,000 roadway links**.
+- Distinguished noise generated by passenger vehicles and trucks.
+- Quantified differences in traffic-noise exposure between communities of concern and other communities.
+- Validated modeled noise levels using field-monitor measurements.
+
+---
+
+## Selected Publications
+
+**Li, K.**, & Kockelman, K. M. (2026).  
+**Speeding across Texas: Identifying high-risk locations using probe data.**  
+*Accident Analysis & Prevention, 229*, 108440.  
+[DOI](https://doi.org/10.1016/j.aap.2026.108440)
+
+**Li, K.**, & Kockelman, K. M.  
+**Exposure-based vulnerable road user safety across U.S. settings: Implications for automated vehicle operations.**  
+*Under review, Journal of Safety Research.*
+
+Parsa, P., **Li, K.**, Kockelman, K. M., & Choi, S. (2025).  
+**Video-based vehicle surveillance in the wild: License plate, make, and model recognition with self-reflective vision-language models.**  
+[arXiv](https://arxiv.org/abs/2508.01387)
+
+Su, G., **Li, K.**, Sengupta, R., & Kockelman, K. M. (2026).  
+**Calibration-free vehicle speed estimation: A monocular keypoint-template approach.**  
+[arXiv](https://arxiv.org/abs/2608.16785)
+
+[**View all publications →**](/publications/)
+
+---
+
+## Education
+
+**Ph.D. in Transportation Engineering**  
+The University of Texas at Austin  
+Expected August 2027  
+Advisor: Professor Kara M. Kockelman  
+Dissertation: *Mapping Traffic Risk: Driving Behaviors, Exposure, and Safety Interventions*
+
+**M.S. in Transportation Engineering**  
+University of California, Berkeley  
+2022
+
+**B.E. in Water and Hydropower Engineering**  
+Hohai University  
+2021  
+Double Major: Law
+
+---
+
+## Methods & Technical Skills
+
+**Data & Programming:** Python, R, SQL, MATLAB
+
+**GIS & Spatial Analysis:** ArcGIS Pro, QGIS, GeoPandas
+
+**Research Methods:** statistical modeling, econometrics, spatial analysis, transportation safety modeling, crash-count modeling, large-scale mobility data processing, GIS, and computer vision
+
+**Transportation Data:** INRIX, StreetLight, travel-survey data, crash records, roadway networks, land-use data, and vehicle trajectory data
+
+**Professional Credential:** Engineer in Training (E.I.T.)
+
+---
+
+## Teaching & Mentoring
+
+My teaching interests include **transportation safety, traffic engineering, transportation data analytics, and quantitative methods**. I have served as a teaching assistant for undergraduate and graduate transportation and data-driven engineering courses at UT Austin and UC Berkeley.
+
+I have also mentored undergraduate and master's students on research involving roadway safety, speed management, and computer-vision-based vehicle speed estimation.
+
+---
+
+## Research Vision
+
+My broader research goal is to connect **driving behavior, road-user exposure, and safety interventions** across transportation systems. I am particularly interested in how large-scale mobility data, sensing technologies, automated vehicles, and optimization can be used to identify transportation risks and support more effective safety decision making.
+
+Ultimately, I aim to develop data-driven approaches that help transportation agencies and emerging mobility providers move toward safer and more equitable transportation systems.
