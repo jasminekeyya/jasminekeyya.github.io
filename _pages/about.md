@@ -7,139 +7,99 @@ redirect_from:
   - /about.html
 ---
 
-I am a fourth-year Ph.D. student in Transportation Engineering at **The University of Texas at Austin**, advised by **Professor Kara M. Kockelman**, and expect to complete my Ph.D. in **August 2027**. My research focuses on transportation safety, driving behavior, vulnerable road user (VRU) safety, and large-scale mobility data analytics.
+I am a fourth-year Ph.D. student in Transportation Engineering at the University of Texas at Austin, advised by Professor Kara M. Kockelman. I expect to complete my Ph.D. in August 2027.
 
-My work seeks to understand **where, when, and why transportation risks emerge** and how emerging data, technologies, and safety interventions can be used to reduce those risks. I am particularly interested in connecting large-scale mobility data with statistical and spatial methods, computer vision, and transportation safety modeling.
+My research focuses on transportation safety and large-scale mobility data analytics, with particular interests in driving behavior, pedestrian and cyclist safety, emerging mobility data, and safety countermeasure evaluation.
 
-[**CV**](/files/Keya_Li_CV.pdf) &nbsp;&nbsp; | &nbsp;&nbsp;
-[**Email**](mailto:keya_li@utexas.edu) &nbsp;&nbsp; | &nbsp;&nbsp;
-[**LinkedIn**](https://www.linkedin.com/in/keya-li/)
+I am interested in understanding where and why transportation risks emerge and in developing data-driven approaches that support safer transportation systems.
+
+[CV](/files/Keya_Li_CV.pdf) ·
+[Email](mailto:keya_li@utexas.edu) ·
+[LinkedIn](https://www.linkedin.com/in/keya-li/)
 
 ---
 
-## Research Interests
-
-My research spans three connected areas:
+## Research
 
 ### Traffic Safety & Road User Behavior
 
-I study how roadway design, posted speed limits, land use, traffic conditions, and temporal factors influence **driving behavior, operating speeds, and speeding risk**. I also examine safety from the perspective of vulnerable road users, including pedestrian and cyclist activity, exposure, and crash risk.
+I study driving behavior, operating speeds, speeding, and vulnerable road user safety, with particular attention to how roadway design, traffic conditions, land use, and temporal factors influence transportation risk.
 
-### Large-Scale Mobility Data Analytics
+### Mobility Data & Analytics
 
-I work with large and emerging transportation datasets, including **probe vehicle data, GPS and trajectory data, household travel surveys, crash records, roadway networks, and land-use data**. My research combines these datasets with statistical modeling, econometrics, spatial analysis, GIS, and large-scale data processing to identify transportation risk patterns.
+My work uses large-scale transportation datasets including probe vehicle data, GPS trajectories, household travel surveys, crash records, roadway networks, and land-use data. I apply statistical modeling, spatial analysis, econometrics, GIS, and large-scale data processing to identify patterns in mobility and safety.
 
 ### Safety Countermeasures & Emerging Technologies
 
-I evaluate transportation safety strategies ranging from **non-infrastructure countermeasures**, such as Rest-in-Red operations and roadway lighting, to emerging technology-based approaches involving **computer vision, roadside cameras, smartphones, and automated vehicle systems**. My goal is to understand not only whether a countermeasure works, but also where and when it should be deployed.
+I evaluate infrastructure and non-infrastructure safety strategies, including Rest-in-Red operations, roadway lighting, computer-vision-based traffic monitoring, camera technologies, smartphones, and automated vehicle applications.
 
 ---
 
-## Selected Research Projects
+## Selected Projects
 
-### TxDOT Project 0-7220 — Speed Management and VRU Safety
+### Speed Management & VRU Safety
+*TxDOT Project 0-7220*
 
-I analyze large-scale mobility and roadway data to understand operating-speed and speeding patterns across Texas and evaluate strategies for reducing speeding and vulnerable road user injuries.
+Analyzed more than **39 million INRIX observations** to study operating speeds and speeding across Texas, evaluate speed-management countermeasures, and develop the Speed and VRU Safety Prediction Tool.
 
-- Analyzed **39+ million INRIX probe observations** to characterize statewide operating speeds and speeding patterns.
-- Examined relationships between driver behavior and roadway, land-use, traffic, and temporal characteristics.
-- Evaluated **non-infrastructure speed-management countermeasures** using before–after analyses of operating speeds and crashes, including Rest-in-Red and roadway lighting.
-- Developed the **Speed and VRU Safety Prediction (SVRP) Tool**, which predicts operating speeds, speeding rates, and expected VRU crash frequencies and compares countermeasures using estimated benefits, costs, and benefit–cost ratios.
+### Pedestrian & Cyclist Exposure
+*Waymo-supported research*
 
-### Waymo — Exposure-Based Pedestrian & Cyclist Safety
+Developed pedestrian and cyclist activity and crash-risk models using more than **1.1 million travel-survey trips**, producing exposure estimates for more than **73,000 U.S. Census tracts** and examining safety conditions in cities with automated vehicle operations.
 
-This research develops exposure-based measures of pedestrian and cyclist safety across U.S. settings and examines their implications for automated vehicle operations.
+### Computer Vision for Traffic Safety
+*UT Austin Good Systems*
 
-- Developed **pedestrian and cyclist activity models** using more than **1.1 million travel-survey trips**.
-- Estimated walking- and biking-miles traveled for more than **73,000 U.S. Census tracts**.
-- Developed **VRU crash-count models** for intersections and midblock roadway segments using exposure, roadway, and land-use characteristics.
-- Examined four U.S. cities with **Waymo operations** to estimate pedestrian and cyclist crash risk and provide exposure-based safety benchmarks for automated vehicle operations.
+Developed and evaluated computer-vision approaches for vehicle speed estimation, vehicle identification, and license-plate recognition using roadside-camera and smartphone video.
 
-### UT Good Systems — Computer Vision for Traffic Enforcement
+### Transportation Noise & Equity
+*UC Berkeley*
 
-I worked on smartphone- and video-based approaches for traffic monitoring and speed-limit enforcement.
-
-- Developed and evaluated **computer-vision methods** for vehicle speed inference, vehicle make/model identification, and license-plate recognition.
-- Evaluated speed-estimation accuracy using roadside-camera and manually collected smartphone video.
-- Investigated how low-cost sensing and vision technologies can support scalable traffic-safety monitoring and enforcement.
-
-### Traffic Noise Exposure & Equity — UC Berkeley
-
-I developed transportation-noise models to examine environmental equity across communities in San Jose, California.
-
-- Developed **link-level traffic noise exposure models** using Mobiliti-simulated traffic flows and speeds across more than **74,000 roadway links**.
-- Distinguished noise generated by passenger vehicles and trucks.
-- Quantified differences in traffic-noise exposure between communities of concern and other communities.
-- Validated modeled noise levels using field-monitor measurements.
-
----
-
-## Selected Publications
-
-**Li, K.**, & Kockelman, K. M. (2026).  
-**Speeding across Texas: Identifying high-risk locations using probe data.**  
-*Accident Analysis & Prevention, 229*, 108440.  
-[DOI](https://doi.org/10.1016/j.aap.2026.108440)
-
-**Li, K.**, & Kockelman, K. M.  
-**Exposure-based vulnerable road user safety across U.S. settings: Implications for automated vehicle operations.**  
-*Under review, Journal of Safety Research.*
-
-Parsa, P., **Li, K.**, Kockelman, K. M., & Choi, S. (2025).  
-**Video-based vehicle surveillance in the wild: License plate, make, and model recognition with self-reflective vision-language models.**  
-[arXiv](https://arxiv.org/abs/2508.01387)
-
-Su, G., **Li, K.**, Sengupta, R., & Kockelman, K. M. (2026).  
-**Calibration-free vehicle speed estimation: A monocular keypoint-template approach.**  
-[arXiv](https://arxiv.org/abs/2608.16785)
-
-[**View all publications →**](/publications/)
+Developed link-level traffic-noise exposure models for San Jose using simulated traffic flows and speeds across more than **74,000 roadway links**, distinguishing passenger-vehicle and truck noise and examining exposure differences across communities.
 
 ---
 
 ## Education
 
-**Ph.D. in Transportation Engineering**  
-The University of Texas at Austin  
-Expected August 2027  
+### The University of Texas at Austin
+**Ph.D. in Transportation Engineering**, expected August 2027  
 Advisor: Professor Kara M. Kockelman  
-Dissertation: *Mapping Traffic Risk: Driving Behaviors, Exposure, and Safety Interventions*
+GPA: 4.00 / 4.00
 
-**M.S. in Transportation Engineering**  
-University of California, Berkeley  
-2022
+### University of California, Berkeley
+**M.S. in Transportation Engineering**, December 2022  
+GPA: 3.93 / 4.00
 
-**B.E. in Water and Hydropower Engineering**  
-Hohai University  
-2021  
-Double Major: Law
-
----
-
-## Methods & Technical Skills
-
-**Data & Programming:** Python, R, SQL, MATLAB
-
-**GIS & Spatial Analysis:** ArcGIS Pro, QGIS, GeoPandas
-
-**Research Methods:** statistical modeling, econometrics, spatial analysis, transportation safety modeling, crash-count modeling, large-scale mobility data processing, GIS, and computer vision
-
-**Transportation Data:** INRIX, StreetLight, travel-survey data, crash records, roadway networks, land-use data, and vehicle trajectory data
-
-**Professional Credential:** Engineer in Training (E.I.T.)
+### Hohai University
+**B.E. in Water and Hydropower Engineering**, June 2021  
+Double Major in Law  
+GPA: 91.5 / 100 · Rank: 2 / 156
 
 ---
 
-## Teaching & Mentoring
+## Publications
 
-My teaching interests include **transportation safety, traffic engineering, transportation data analytics, and quantitative methods**. I have served as a teaching assistant for undergraduate and graduate transportation and data-driven engineering courses at UT Austin and UC Berkeley.
+### Journal Articles
 
-I have also mentored undergraduate and master's students on research involving roadway safety, speed management, and computer-vision-based vehicle speed estimation.
+**Li, K.**, & Kockelman, K. M. (2026).  
+“Speeding Across Texas: Identifying High-Risk Locations Using Probe Data.”  
+*Accident Analysis & Prevention, 229*, 108440.  
+[DOI](https://doi.org/10.1016/j.aap.2026.108440)
+
+**Li, K.**, & Kockelman, K. M.  
+“Exposure-Based Vulnerable Road User Safety Across U.S. Settings: Implications for Automated Vehicle Operations.”  
+*Under review, Journal of Safety Research.*
+
+### Preprints
+
+Parsa, P., **Li, K.**, Kockelman, K. M., & Choi, S. (2025).  
+“Video-Based Vehicle Surveillance in the Wild: License Plate, Make, and Model Recognition with Self-Reflective Vision-Language Models.”  
+[arXiv](https://arxiv.org/abs/2508.01387)
+
+[View all publications →](/publications/)
 
 ---
 
-## Research Vision
+## Professional Credential
 
-My broader research goal is to connect **driving behavior, road-user exposure, and safety interventions** across transportation systems. I am particularly interested in how large-scale mobility data, sensing technologies, automated vehicles, and optimization can be used to identify transportation risks and support more effective safety decision making.
-
-Ultimately, I aim to develop data-driven approaches that help transportation agencies and emerging mobility providers move toward safer and more equitable transportation systems.
+**Engineer in Training (E.I.T.)**
