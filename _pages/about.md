@@ -24,16 +24,16 @@ I am interested in understanding where and why transportation risks emerge and i
 ### The University of Texas at Austin
 
 Ph.D. in Transportation Engineering, expected August 2027  
-Advisor: Professor Kara M. Kockelman  
+Advisor: Professor Kara M. Kockelman
 
 ### University of California, Berkeley
 
-M.S. in Transportation Engineering, December 2022  
+M.S. in Transportation Engineering, December 2022
 
 ### Hohai University
 
 B.E. in Water and Hydropower Engineering, June 2021  
-Double Major in Law  
+Double Major in Law
 
 ---
 
@@ -97,23 +97,15 @@ Distinguished passenger-vehicle and truck noise patterns, evaluated differences 
 
 ### Journal Articles
 
-Li, K., & Kockelman, K. M. (2026).  
-“Speeding Across Texas: Identifying High-Risk Locations Using Probe Data.”  
-*Accident Analysis & Prevention, 229*, 108440.  
-[DOI](https://doi.org/10.1016/j.aap.2026.108440)
+Li, K., & Kockelman, K. M. (2026). “Speeding Across Texas: Identifying High-Risk Locations Using Probe Data.” *Accident Analysis & Prevention, 229*, 108440. [DOI](https://doi.org/10.1016/j.aap.2026.108440)
 
-Li, K., & Kockelman, K. M.  
-“Exposure-Based Vulnerable Road User Safety Across U.S. Settings: Implications for Automated Vehicle Operations.”  
-*Under review, Journal of Safety Research.*
+Li, K., & Kockelman, K. M. “Exposure-Based Vulnerable Road User Safety Across U.S. Settings: Implications for Automated Vehicle Operations.” *Under review, Journal of Safety Research.*
 
 ### Preprints
 
-Parsa, P., Li, K., Kockelman, K. M., & Choi, S. (2025).  
-“Video-Based Vehicle Surveillance in the Wild: License Plate, Make, and Model Recognition with Self-Reflective Vision-Language Models.”  
-[arXiv](https://arxiv.org/abs/2508.01387)
+Parsa, P., Li, K., Kockelman, K. M., & Choi, S. (2025). “Video-Based Vehicle Surveillance in the Wild: License Plate, Make, and Model Recognition with Self-Reflective Vision-Language Models.” [arXiv](https://arxiv.org/abs/2508.01387)
 
-Su, G., Li, K., Sengupta, R., & Kockelman, K. M. (2026).  
-“Calibration-Free Vehicle Speed Estimation: A Monocular Keypoint-Template Approach.”
+Su, G., Li, K., Sengupta, R., & Kockelman, K. M. (2026). “Calibration-Free Vehicle Speed Estimation: A Monocular Keypoint-Template Approach.”
 
 [View all publications →](/publications/)
 
