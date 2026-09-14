@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a fourth-year Ph.D. student in Transportation Engineering at the University of Texas at Austin, advised by Professor Kara M. Kockelman. I expect to complete my Ph.D. in August 2027.
+I am a fourth-year Ph.D. student in Transportation Engineering at the University of Texas at Austin, advised by Professor Kara M. Kockelman.
 
 My research focuses on transportation safety and large-scale mobility data analytics, with particular interests in driving behavior, pedestrian and cyclist safety, emerging mobility data, and safety countermeasure evaluation.
 
@@ -19,61 +19,77 @@ I am interested in understanding where and why transportation risks emerge and i
 
 ---
 
+## Education
+
+### The University of Texas at Austin
+
+Ph.D. in Transportation Engineering, expected August 2027  
+Advisor: Professor Kara M. Kockelman  
+
+### University of California, Berkeley
+
+M.S. in Transportation Engineering, December 2022  
+
+### Hohai University
+
+B.E. in Water and Hydropower Engineering, June 2021  
+Double Major in Law  
+
+---
+
 ## Research
 
 ### Traffic Safety & Road User Behavior
 
-I study driving behavior, operating speeds, speeding, and vulnerable road user safety, with particular attention to how roadway design, traffic conditions, land use, and temporal factors influence transportation risk.
+Examine how roadway design, posted speed limits, traffic conditions, land use, and temporal factors influence driver behavior and transportation risk.
 
 ### Mobility Data & Analytics
 
-My work uses large-scale transportation datasets including probe vehicle data, GPS trajectories, household travel surveys, crash records, roadway networks, and land-use data. I apply statistical modeling, spatial analysis, econometrics, GIS, and large-scale data processing to identify patterns in mobility and safety.
+Apply statistical modeling, spatial analysis, econometrics, GIS, and large-scale data processing to identify patterns in mobility and safety, based on large-scale transportation datasets including probe vehicle data, GPS trajectories, household travel surveys, crash records, roadway networks, and land-use data.
 
 ### Safety Countermeasures & Emerging Technologies
 
-I evaluate infrastructure and non-infrastructure safety strategies, including Rest-in-Red operations, roadway lighting, computer-vision-based traffic monitoring, camera technologies, smartphones, and automated vehicle applications.
+Evaluate transportation safety strategies ranging from non-infrastructure countermeasures, such as Rest-in-Red operations and roadway lighting, to emerging technologies involving computer vision, roadside cameras, smartphones, and automated vehicle systems.
 
 ---
 
 ## Selected Projects
 
 ### Speed Management & VRU Safety
+
 *TxDOT Project 0-7220*
 
-Analyzed more than **39 million INRIX observations** to study operating speeds and speeding across Texas, evaluate speed-management countermeasures, and develop the Speed and VRU Safety Prediction Tool.
+Analyzed more than 39 million INRIX probe observations to characterize operating speeds and speeding patterns across Texas and examine relationships with roadway, land-use, traffic, and temporal characteristics.
 
-### Pedestrian & Cyclist Exposure
+Evaluated non-infrastructure speed-management countermeasures using before–after analyses of operating speeds and crashes, including Rest-in-Red operations and roadway lighting.
+
+Developed the Speed and VRU Safety Prediction (SVRP) Tool to estimate operating speeds, speeding rates, and expected VRU crash frequencies and compare safety countermeasures using estimated benefits, costs, and benefit–cost ratios.
+
+### Pedestrian & Cyclist Exposure and Safety
+
 *Waymo-supported research*
 
-Developed pedestrian and cyclist activity and crash-risk models using more than **1.1 million travel-survey trips**, producing exposure estimates for more than **73,000 U.S. Census tracts** and examining safety conditions in cities with automated vehicle operations.
+Developed nationwide pedestrian and cyclist activity models using more than 1.1 million travel-survey trips, producing walking- and biking-miles-traveled estimates for more than 73,000 U.S. Census tracts.
+
+Developed pedestrian and cyclist crash-count models for intersections and midblock roadway segments using exposure, roadway, and land-use characteristics.
+
+Examined four U.S. cities with Waymo operations to estimate pedestrian and cyclist crash risk and provide exposure-based safety benchmarks for automated vehicle operations.
 
 ### Computer Vision for Traffic Safety
+
 *UT Austin Good Systems*
 
-Developed and evaluated computer-vision approaches for vehicle speed estimation, vehicle identification, and license-plate recognition using roadside-camera and smartphone video.
+Developed and evaluated computer-vision approaches for vehicle speed estimation, vehicle make and model identification, and license-plate recognition using roadside-camera and smartphone video.
+
+This work explores how low-cost sensing and vision technologies can support scalable traffic-safety monitoring and technology-enabled enforcement.
 
 ### Transportation Noise & Equity
-*UC Berkeley*
 
-Developed link-level traffic-noise exposure models for San Jose using simulated traffic flows and speeds across more than **74,000 roadway links**, distinguishing passenger-vehicle and truck noise and examining exposure differences across communities.
+*University of California, Berkeley*
 
----
+Developed link-level traffic-noise exposure models for San Jose using CNOSSOS and Mobiliti-simulated traffic flows and speeds across more than 74,000 roadway links.
 
-## Education
-
-### The University of Texas at Austin
-**Ph.D. in Transportation Engineering**, expected August 2027  
-Advisor: Professor Kara M. Kockelman  
-GPA: 4.00 / 4.00
-
-### University of California, Berkeley
-**M.S. in Transportation Engineering**, December 2022  
-GPA: 3.93 / 4.00
-
-### Hohai University
-**B.E. in Water and Hydropower Engineering**, June 2021  
-Double Major in Law  
-GPA: 91.5 / 100 · Rank: 2 / 156
+Distinguished passenger-vehicle and truck noise patterns, evaluated differences in exposure between communities of concern and other communities, and validated modeled noise levels using field-monitor measurements.
 
 ---
 
@@ -81,20 +97,23 @@ GPA: 91.5 / 100 · Rank: 2 / 156
 
 ### Journal Articles
 
-**Li, K.**, & Kockelman, K. M. (2026).  
+Li, K., & Kockelman, K. M. (2026).  
 “Speeding Across Texas: Identifying High-Risk Locations Using Probe Data.”  
 *Accident Analysis & Prevention, 229*, 108440.  
 [DOI](https://doi.org/10.1016/j.aap.2026.108440)
 
-**Li, K.**, & Kockelman, K. M.  
+Li, K., & Kockelman, K. M.  
 “Exposure-Based Vulnerable Road User Safety Across U.S. Settings: Implications for Automated Vehicle Operations.”  
 *Under review, Journal of Safety Research.*
 
 ### Preprints
 
-Parsa, P., **Li, K.**, Kockelman, K. M., & Choi, S. (2025).  
+Parsa, P., Li, K., Kockelman, K. M., & Choi, S. (2025).  
 “Video-Based Vehicle Surveillance in the Wild: License Plate, Make, and Model Recognition with Self-Reflective Vision-Language Models.”  
 [arXiv](https://arxiv.org/abs/2508.01387)
+
+Su, G., Li, K., Sengupta, R., & Kockelman, K. M. (2026).  
+“Calibration-Free Vehicle Speed Estimation: A Monocular Keypoint-Template Approach.”
 
 [View all publications →](/publications/)
 
@@ -102,4 +121,4 @@ Parsa, P., **Li, K.**, Kockelman, K. M., & Choi, S. (2025).
 
 ## Professional Credential
 
-**Engineer in Training (E.I.T.)**
+Engineer in Training (E.I.T.)
