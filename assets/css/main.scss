@@ -2,11 +2,21 @@
 ---
 
 /*
- * This file controls what is imported from /_sass
- *
- * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+ * Main stylesheet for Keya Li's personal website.
+ * The first two lines above are required by Jekyll.
  */
+
+
+/* ==========================================================================
+   WEB FONT
+   ========================================================================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300..700;1,300..700&display=swap");
+
+
+/* ==========================================================================
+   ACADEMIC PAGES STYLES
+   ========================================================================== */
 
 @import
     "vendor/breakpoint/breakpoint",
@@ -17,7 +27,6 @@
 
     "include/mixins",
     "vendor/susy/susy",
-
     "layout/reset",
     "layout/base",
 
@@ -37,3 +46,121 @@
     "layout/sidebar",
     "layout/json_cv"
 ;
+
+
+/* ==========================================================================
+   CUSTOM TYPOGRAPHY
+   ========================================================================== */
+
+/*
+ * Body text
+ */
+body {
+    font-family: $global-font-family;
+    font-weight: 400;
+    line-height: 1.65;
+}
+
+
+/*
+ * Main page content
+ */
+.page__content {
+    font-family: $global-font-family;
+    font-size: 1em;
+    line-height: 1.7;
+}
+
+
+/*
+ * Paragraph spacing
+ */
+.page__content p {
+    margin-bottom: 1.1em;
+}
+
+
+/*
+ * Headings
+ *
+ * 600 gives headings enough emphasis without making
+ * the page look overly bold.
+ */
+.page__content h1,
+.page__content h2,
+.page__content h3,
+.page__content h4 {
+    font-family: $header-font-family;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+
+/*
+ * Major section headings
+ */
+.page__content h2 {
+    margin-top: 2.1em;
+    margin-bottom: 0.8em;
+}
+
+
+/*
+ * Project/research subsection headings
+ */
+.page__content h3 {
+    margin-top: 1.6em;
+    margin-bottom: 0.45em;
+}
+
+
+/*
+ * Bold text
+ *
+ * Slightly lighter than the browser default,
+ * so emphasized text does not dominate the page.
+ */
+.page__content strong {
+    font-weight: 600;
+}
+
+
+/*
+ * Italic text such as project sponsors
+ */
+.page__content em {
+    font-weight: 400;
+}
+
+
+/*
+ * Sidebar typography
+ */
+.author__name {
+    font-family: $header-font-family;
+    font-weight: 600;
+}
+
+.author__bio {
+    font-family: $global-font-family;
+    line-height: 1.5;
+}
+
+
+/*
+ * Navigation
+ */
+.greedy-nav,
+.masthead {
+    font-family: $global-font-family;
+}
+
+
+/*
+ * Links
+ *
+ * Keep the site's theme color but avoid extra bolding.
+ */
+.page__content a {
+    font-weight: 400;
+}
